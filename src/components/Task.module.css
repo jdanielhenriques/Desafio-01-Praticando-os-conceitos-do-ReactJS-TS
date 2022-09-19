@@ -1,0 +1,10 @@
+.trash{
+  max-width: 15px;
+  max-height: 15px;
+  transition: all 0.2s;
+}
+.trash:hover {
+  cursor: pointer;
+  color: var(--danger);
+  
+}

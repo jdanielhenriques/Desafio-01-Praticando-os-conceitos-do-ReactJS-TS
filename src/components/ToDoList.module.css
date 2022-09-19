@@ -1,0 +1,106 @@
+.container {
+  max-width: 736px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.imputItem {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: calc(0px - 1px - 1.5rem);
+}
+
+.imputItem input {
+  color: var(--gray-300);
+  padding: 1rem;
+  flex-grow: 1;
+  border: 1px solid var(--gray-700);
+  background-color: var(--gray-500);
+  border-radius: 8px;
+}
+
+.imputItem input:focus-within {
+  border: 1px solid var(--purpleDark);
+  box-shadow: none;
+}
+.imputItem button {
+  color: var(--gray-100);
+  font-weight: bold;
+  font-size: 0.875rem;
+  background-color: var(--blueDark);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.imputItem button:hover {
+  background-color: var(--blue);
+}
+
+.taskCount {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0, 875rem;
+}
+
+.tasks {
+  color: var(--blue);
+}
+
+.tasksDone {
+  color: var(--purple);
+}
+
+.tasks span,
+.tasksDone span {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: var(--gray-200);
+  margin-left: 8px;
+  padding: 2px 8px;
+  background-color: var(--gray-400);
+  border-radius: 999px;
+}
+
+.taskList {
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.taskList li {
+  list-style-type: none;
+  padding: 1rem;
+  border-top: 1px solid var(--gray-400);
+  background-color: var(--gray-500);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.emptyList {
+  margin-top: 1.5rem;
+  padding: 4rem 1.5rem;
+  border-top: 1px solid var(--gray-400);
+  border-radius: .5rem;
+}
+
+.emptyList img {
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.emptyList p {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: var(--gray-300);
+}
